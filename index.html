@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Jency's Project</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="top-nav-bar">
+		<div class="search-box">
+			<i class="fas fa-bars" id="menu-btn" onclick="openmenu()"></i>
+			<i class="fas fa-times" id="close-btn"onclick="closemenu()"></i>
+			<img src="images/website-logo.png" class="logo" id="ologo" alt="website-logo">
+			<input type="text" class="form-control">
+			<span class="input-group-text"><i class="fas fa-search"></i></span>
+		</div>
+		<div class="menu-bar">
+		<ul>
+			<li><a href="#"><i class="fas fa-shopping-basket"></i> Cart</a></li>
+			<li><a href="#">Sign Up</a></li>
+			<li><a href="#">Log In</a></li>
+		</ul>
+		</div>
+	</div>
+	<section class="header">
+		<div class="side-menu" id="side-menu">
+			<ul>
+				<li>On Sale<i class="fas fa-angle-double-right"></i>
+					<ul>
+						<li>PowerBank</li>
+						<li>Pendrive</li>
+						<li>Speaker</li>
+						<li>Headphone</li>
+					</ul>
+
+
+				</li>
+				<li>Mobiles<i class="fas fa-angle-double-right"></i>
+					<ul>
+						<li>Samsung</li>
+						<li>Oppo</li>
+						<li>Nokia</li>
+						<li>Symphony</li>
+					</ul>
+				</li>
+				<li>Tablets<i class="fas fa-angle-double-right"></i>
+					<ul>
+						<li>Lenovo</li>
+						<li>Amazon</li>
+						<li>Onda</li>
+						<li>Xiomi</li>
+					</ul>
+				</li>
+				<li>Speaker<i class="fas fa-angle-double-right"></i>
+					<ul>
+						<li>Household Party</li>
+						<li>Concert</li>
+						<li>Laptop Speaker</li>
+					</ul>
+				</li>
+				<li>Laptop<i class="fas fa-angle-double-right"></i>
+					<ul>
+						<li>Lenovo</li>
+						<li>Asus</li>
+						<li>Dell</li>
+						<li>HP</li>
+					</ul>
+				</li>
+				<li>Computer<i class="fas fa-angle-double-right"></i>
+					<ul>
+						<li>Mini</li>
+						<li>Micro</li>
+						<li>Mainframe</li>
+						<li>Super</li>
+					</ul>
+				</li>
+				<li>Water<i class="fas fa-angle-double-right"></i>
+					<ul>
+						<li>Mum</li>
+						<li>Fresh</li>
+					</ul>
+				</li>
+			</ul>			
+		</div>	
+		<div class="slider">
+			<div class="bd-example">
+				<div id="slider" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+					    <li data-target="#slider" data-slide-to="0" class="active"></li>
+					    <li data-target="#slider" data-slide-to="1"></li>
+					    <li data-target="#slider" data-slide-to="2"></li>
+					    <li data-target="#slider" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner">
+					    <div class="carousel-item active">
+					        <img src="images/1.jpeg" class="d-block w-100" alt="Flower">
+					        <div class="carousel-caption d-none d-md-block">
+					           <h5>Flowers</h5>
+					           <p>The Symbol Of Peace Joy and Happiness.</p>
+					        </div>
+					    </div>
+					    <div class="carousel-item">
+					        <img src="images/2.jpeg" class="d-block w-100" alt="Color">
+					        <div class="carousel-caption d-none d-md-block">
+					         	<h5>Color</h5>
+					         	<p>Fill life with all colorful memories of Happiness.</p>
+					        </div>
+					    </div>
+					    <div class="carousel-item">
+					        <img src="images/3.jpeg" class="d-block w-100" alt="Blue">
+					        <div class="carousel-caption d-none d-md-block">
+					         	<h5>Blue Sea</h5>
+					         	<p>Life is not Easy.It has ups and downs but never give up.</p>
+					        </div>
+					    </div>
+					    <div class="carousel-item">
+					        <img src="images/4.jpeg" class="d-block w-100" alt="Blue">
+					        <div class="carousel-caption d-none d-md-block">
+					         	<h5>Tablet</h5>
+						        <p>Tablets</p>
+					        </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-------------------------------Featured-Categories-------------------------------->
+	<section class="featured-categories">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="images/cat-1.jpeg" alt="">					
+				</div>
+				<div class="col-md-4">
+					<img src="images/cat-2.jpeg" alt="">					
+				</div>
+				<div class="col-md-4">
+					<img src="images/cat-3.jpeg" alt="">					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-----------------------On Sale Products------------------------->
+	<section class="on-sale">
+		<div class="container">
+			<div class="title-box">
+				<h2>On Sale</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/product-1.jpeg" alt="Pablet"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<h3>ASUS ZenPad</h3>
+						<h5>$280.26</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/product-2.jpeg" alt="Bben N14W Laptop"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h3>Bben N14W Laptop</h3>
+						<h5>$295.97 - $326.93</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/product-3.jpeg" alt="Bben N14W Laptop"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<i class="far fa-star"></i>
+						<h3>UMIDIGI A1 Pro 4G Phablet</h3>
+						<h5>$135.02</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/product-4.jpeg" alt="Bben N14W Laptop"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h3>Lenovo Yoga TB3 Plus</h3>
+						<h5>$375.49</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!---------------------------New Products---------------------------------->
+	<section class="new-products">
+		<div class="container">
+			<div class="title-box">
+				<h2>New Arrivals</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/na-1.JPG" alt="Pablet"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<h3>ACER S5 NoteBook</h3>
+						<h5>$280.26</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/na-2.jpg" alt="Bben N14W Laptop"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h3>Onda Pablet</h3>
+						<h5>$295.97</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/na-3.jpg" alt="Bben N14W Laptop"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<i class="far fa-star"></i>
+						<h3>Chuwi Phablet</h3>
+						<h5>$135.02</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/na-4.jpg" alt="Bben N14W Laptop"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h3>UGreen Power Bank</h3>
+						<h5>$375.49</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/product-1.jpeg" alt="Pablet"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<h3>ASUS ZenPad</h3>
+						<h5>$280.26</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/product-2.jpeg" alt="Bben N14W Laptop">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h3>Bben N14W Laptop</h3>
+						<h5>$295.97 - $326.93</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/product-3.jpeg" alt="Bben N14W Laptop"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+						<i class="far fa-star"></i>
+						<h3>UMIDIGI A1 Pro 4G Phablet</h3>
+						<h5>$135.02</h5>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="product-top">
+						<a href="product.html"><img src="images/product-4.jpeg" alt="Bben N14W Laptop"></a>
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quick Shop">
+									<i class="fas fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fas fa-heart"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fas fa-shopping-cart"></i>
+								</button>
+						</div>
+					</div>
+					<div class="product-bottom text-center">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<h3>Lenovo Yoga TB3 Plus</h3>
+						<h5>$375.49</h5>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<!-------------------------Website-Features------------------------------>
+	<section class="website-features">
+		<div class="cointainer">
+			<div class="row">
+				<div class="col-md-3 feature-box">
+					<img src="images/feature-1.png" alt="">
+					<div class="feature-text">
+						<p><b>100% Original items</b> are available at company</p>
+					</div>
+				</div>
+				<div class="col-md-3 feature-box">
+					<img src="images/feature-2.png" alt="">
+					<div class="feature-text">
+						<p><b>Return within 30 days</b> of receiving your order.</p>
+					</div>
+				</div>
+				<div class="col-md-3 feature-box">
+					<i class="fas fa-truck-moving"></i>
+					<div class="feature-text">
+						<p><b>Get free delivery for every</b> order of more then two products</p>
+					</div>
+				</div>
+				<div class="col-md-3 feature-box">
+					<img src="images/feature-4.jpg" alt="">
+					<div class="feature-text">
+						<p><b>Pay Online through multiple</b> options(card/Net banking)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-----------------------Footer------------------------------------->
+	<section class="footer">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-3">
+					<h1>Useful Links</h1>
+					<p>Privacy Policy</p>
+					<p>Terms of Use</p>
+					<p>Return Policy</p>
+					<p>Discount Coupons</p>
+				</div>
+				<div class="col-md-3">
+					<h1>Company</h1>
+					<p>About Us</p>
+					<p>Career</p>
+					<p>Contact Us</p>
+					<p>Affiliate</p>
+				</div>
+				<div class="col-md-3">
+					<h1>Follow Us on</h1>
+					<p><i class="fab fa-facebook-square"></i>  Facebook</p>
+					<p><i class="fab fa-youtube-square"></i>  Youtube</p>
+					<p><i class="fab fa-linkedin"></i>  Linkedin</p>
+					<p><i class="fab fa-twitter-square"></i>  Twitter</p>
+				</div>
+				<div class="col-md-3 footer-image">
+					<h1>Download App</h1>
+					<img src="images/download.jpg" alt="">
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Made with <i class="fas fa-heart"></i> by Jency</p>
+		</div>
+	</section>
+
+	<script>
+		function openmenu()
+		{
+			document.getElementById("side-menu").style.display="block";
+			document.getElementById("menu-btn").style.display="none";
+			document.getElementById("close-btn").style.display="block";
+		}
+		function closemenu()
+		{
+			document.getElementById("side-menu").style.display="none";
+			document.getElementById("menu-btn").style.display="block";
+			document.getElementById("close-btn").style.display="none";
+		}
+	</script>
+
+</body>
+</html>
